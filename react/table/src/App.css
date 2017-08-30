@@ -53,6 +53,9 @@
     cursor: pointer;
     display: inline-block;
 }
+.pagination-count.active {
+    background-color: #ecf0f1;
+}
 
 .filter-wrap {
     float: left;
