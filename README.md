@@ -1,1 +1,0 @@
-React demo app https://react-klika-tech.herokuapp.com/react/table/
