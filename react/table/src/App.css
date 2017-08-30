@@ -1,0 +1,69 @@
+
+.arstists-wrap {
+    float: left;
+}
+.arstists {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.arstists th {
+    background-color: #ecf0f1;
+    color: #5f6568;
+}
+
+.arstists th, .arstists td {
+    text-align: center;
+    padding: 8px;
+}
+
+.arstists tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.sort {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0 0;
+}
+
+.pagination-pages {
+    margin: 0 auto;
+}
+
+.pagination-pages-el {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    min-width: 20px;
+    text-align: center;
+    line-height: 19px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pagination-count {
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.filter-wrap {
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.filter {
+    background-color: #ecf0f1;
+    padding: 10px;
+}
+
+.filter-title {
+    margin: 10px 0 5px;
+}
