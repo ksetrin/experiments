@@ -1,0 +1,13 @@
+.board {
+  display: grid;
+  grid-template: repeat(3, 100px) / repeat(3, 100px);
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
